@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    z-index: 999;
+    position: fixed;
+
+}
+
+.navhb{
+    height: 30px;
+    background-color:transparent;
+    border: none;
+    
+}
+
+.home{
+  
+}
+
+.Homebg1{
+    background-image: url("../public/Background/bg1.png");
+    background-size: 100%;
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: bottom,center;
+}
+
+.Homebg2{
+    background-image: url("../public/Background/bg2.png");
+    background-size: 110%;
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: top,center;
+}
+.Homebg3{
+    background-image: url("../public/Background/bg3.png");
+    background-size: 110%;
+    width: 100%;
+    height: 110vh;
+    background-position: top,center;
+    background-repeat: no-repeat;
+
+}
+
+.homeh2{
+    font-family: "Fredoka", cursive;
+    font-size: 11vh;
+    font-weight: 700;
+}
+
+.posi{
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 60vh;
+}
+
+.homep1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    padding-top: 7%;
+}
+
+.homebtn{
+    width:150px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(249, 116, 68);
+    color: white;
+    border: none;
+}
+
+.posi1{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    width: 30%;
+}
+
+.homebg5{
+    background-image: url(../public/Background/pattern-bg.png);
+    height: 55vh;
+    
+    
+   
+}
+
+.homebg4{
+    height: 500px;
+    bottom: 25vh;
+    position: relative;
+     z-index: -1;
+     /* border: 2px solid red; */
+}
+
+.grid1{
+    background-image: url(../public/Background/grid01.png);
+    height: 56vh;
+    width: 90vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 200px;
+    /* border: 2px solid green; */
+}
+
+.grid2{
+    background-image: url(../public/Background/grid02.png);
+}
+
+.grid1h{
+    width: 100%;
+    font-family: "Fredoka", cursive;
+    font-size: 7vh;
+    font-weight: 700;
+}
+
+.ingrid{
+    /* border: 2px solid red; */
+    
+    top: 25%;
+    left: 50%;
+}
+
+.ingrid1{
+    top: 15%;
+    left: 10%;
+    width: 40vh;
+}
+
+.ingrid1p{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.wave{
+    background-image: url(../public/Background/wave.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bgblk{
+    background-color: #232121;
+    height: 400px;
+    /* background-repeat: no-repeat; */
+}
+
+.ftp1{
+    font-family: "Fredoka", cursive;
+    font-size: 18px;
+    color: white;
+}
+
+.homeinpt{
+    background-color: #232121;
+    border-bottom:2px solid white;
+    height: 50px;
+    width: 500px;
+    /* border: none; */
+}
+
+.homebtn2{
+    background-color: #232121;
+    height: 50px;
+    width: 100px;
+    color:#FFC412;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Fredoka", cursive;
+    border: none;  
+}

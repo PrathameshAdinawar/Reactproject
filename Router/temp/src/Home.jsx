@@ -94,7 +94,8 @@ const Home = () => {
 
             <div className="homebg4 ">
                 <div className="homebg5"></div>
-                <div className="d-lg-flex  justify-content-around container-md gap-3">
+                
+                <div className="d-lg-flex  justify-content-around gap-5 container-md">
 
                     <div className="grid1 ">
                         <div className="ingrid position-absolute">

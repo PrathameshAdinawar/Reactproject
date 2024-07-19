@@ -16,7 +16,7 @@ const Navigation = () => {
                         <li><Link className="text-decoration-none text-dark" to={'./Reviews'}>Reviews</Link></li>
                         <li><Link className="text-decoration-none text-dark" to={'./Contact'}>Contact</Link></li>
                     </ul>
-                    <div className="d-flex justify-content-evenly col-8 col-md-6 my-auto col-lg-3">
+                    <div className="d-flex justify-content-evenly col-9 col-md-6 my-auto col-lg-3">
                         <div className="ps-5">
                             <img src="../public/search.png" alt="" />
                         </div>
@@ -27,7 +27,7 @@ const Navigation = () => {
                             <img src="../public/cart.png" alt="" />
                         </div>
                     
-                        <div className="d-lg-none ">
+                        <div className="d-lg-none ps-2">
                             <button type="button" className="navhb ">
                                 <img src="../public/hamburger.png" alt="" />
                             </button>

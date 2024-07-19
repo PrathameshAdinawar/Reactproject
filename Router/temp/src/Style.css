@@ -26,7 +26,7 @@
     background-image: url("../public/Background/bg1.png");
     background-size: 110%;
     width: 100%;
-    height: 75vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-position: top,center;
 }
@@ -44,7 +44,7 @@
     background-image: url("../public/Background/bg2.png");
     background-size: 122%;
     width: 100%;
-    height: 75vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-position: top,center;
 }
@@ -56,7 +56,7 @@
     background-image: url("../public/Background/bg3.png");
     background-size: 113%;
     width: 100%;
-    height: 75vh;
+    height: 80vh;
     background-position: top,center;
     background-repeat: no-repeat;
 
@@ -73,6 +73,12 @@
     /* border: 2px solid red; */
 }
 
+.ablgus{
+    font-family: "Fredoka", cursive;
+    font-size: 8vh;
+    font-weight: 700; 
+}
+
 .smhh2{
     font-size: 7vh;
 }
@@ -87,7 +93,7 @@
 
 .wid{
     width: 80%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .posi{
@@ -101,6 +107,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     padding-top: 7%;
+}
+
+.abp1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .homebtn{
@@ -129,9 +141,64 @@
     height: 70vh;
     /* border: 2px solid green; */
 }
+
+.about{
+    top: 25%;
+}
+
+.aboutus{
+    background-image: url(../public/Background/pattern-bg.png);
+    height: 50vh;    
+}
+
+.abgrids{
+    
+}
+
+.abgrid1{
+    margin-top: 50px;
+    background-image: url(../public/Background/abgrid01.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position:center ;
+    border-radius: 30px 0 30px 0;
+
+}
+
+.abg2{
+    background-image: url(../public/Background/abgrid02.jpg);
+}
+
+.abg3{
+    background-image: url(../public/Background/abgrid03.jpg);
+}
+
+.abgrid4{
+    background-image: url(../public/Background/abgrid04.jpg);
+    border-radius: 30px;
+}
+
+.abpaw{
+    font-size: 30px;
+}
+
+.namimg{
+    border-radius: 20px;
+}
+
+.name{
+    font-size: 20px;
+}
+
+.ftbg{
+    background-color:#FFC312;
+    height: 330px;
+    z-index: -1;
+}
+
 .grid1{
     background-image: url(../public/Background/grid01.png);
-    height: 25vh;
+    height: 40vh;
     /* width: 90vh; */
     width: 100%;
     background-size: 100%;
@@ -156,13 +223,14 @@
 
 .ingrid{
     /* border: 2px solid red; */
-    
-    top: 15%;
+    padding: 2px;
+    top: 20%;
     left: 50%;
 }
 
 .ingrid1{
-    top: 5%;
+    padding: 2px;
+    top: 10%;
     right: 40%;
    /* border: 2px solid red; */
 }
@@ -216,23 +284,53 @@
 
 @media (min-width:768px){
     
+    .posi{
+       top: 30%; 
+    }
+    
+    .ablgus{
+        font-size: 40px;
+    }
+    
+    .about{
+        top: 30%;
+    }
+    
+    .posi1{
+        top: 30%;
+    }
+    
+    .abgrid1 {
+        height: 720px;
+    }
+    
+    .abg2, .abg3{
+        height: 350px;
+    }
+    
+    .abg3{
+        margin-top: 20px;
+    }
+    
+    
 .homeh2{
     font-size: 5vh;
 }
 
 .homebg4{
-    bottom: 35vh;
+    bottom: 15vh;
     position: relative;
      z-index: -1; 
 }
 
 .homebg5{
-    height: 85vh;
+    height: 90vh;
 }
 
 .grid1{
+    width: 70%;
     bottom: 70vh;
-    height: 50vh; 
+    height: 60vh; 
 }
 
 .grid1h{
@@ -258,12 +356,24 @@
 .bgblk{
     /* border: 2px solid red; */
 }
+
+.ftbg{
+    height: 380px;
+}
 }
 
 @media (min-width:992px){
 
+    .ablgus{
+        font-size: 50px;
+    }
+    
+    .ftbg{
+        height: 420px;
+    }
+    
 .home{
-    height: 110vh;
+    height: 135vh;
 }
 
     .homebg5{
@@ -284,5 +394,62 @@
 
     .grid1h{
         font-size: 4vh;
+    }
+    
+  
+}
+
+@media (min-width:1024px) {
+    
+    
+    
+    .home{
+        height: 170vh;
+    }
+    
+    .Homebg1,.Homebg2,.Homebg3{
+        height: 120vh;
+    }
+    
+    .homeh2{
+        font-size: 12vh;
+    }
+    
+    .name{
+        font-size: 30px;
+    }
+    .abpaw{
+        font-size: 30px;
+    }
+    .posi{
+        top: 25%;
+        width: 30%;
+    }
+    
+    .posi1{
+        top: 25%;
+    }
+   
+    .homebg4{
+        bottom: 35vh;
+    }
+    
+    .homebg5{
+        height: 55vh;
+    }
+    
+    .wave{
+        height: 200px;
+    }
+     .ftbg{
+        height: 550px;
+     }
+    
+    .ingrid{
+        top: 25%;
+    }
+    
+    .grid1h{
+        font-size: 7vh;
     }
 }

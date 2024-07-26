@@ -1,6 +1,8 @@
 const About = (props) => {
     const d1 = props.da1;
     return (
+        <div>
+
         <div className="w-100">
             <div className="aboutus  w-100 col-md-12">
                 <div className="position-absolute about container">
@@ -103,11 +105,11 @@ const About = (props) => {
                     <img src="../public/brlog03.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
                     <img src="../public/brlog04.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
                     
-                </div><div className="wave mt-5 abblk"></div>
+                </div>
+                
+                <div className="wave  abblk "></div>
             </div>
-
-
-            <div className="bgblk ">
+            <div className="bgblk">
                 <div>
                     <div className="container d-md-flex justify-content-around">
                         <div col-2>
@@ -144,7 +146,8 @@ const About = (props) => {
                     </div>
                 </div>
             </div>
-        </div>)
+        </div>
+        </div> )
 }
 
 export default About

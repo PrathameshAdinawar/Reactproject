@@ -192,7 +192,7 @@
 
 .ftbg{
     background-color:#FFC312;
-    height: 330px;
+    height: 290px;
     z-index: -1;
 }
 
@@ -244,10 +244,10 @@
 .wave{
     background-image: url(../public/Background/wave.png);
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    /* border: 2px solid red; */
 }
 
 .bgblk{
@@ -375,11 +375,116 @@
     border: none;
 }
 
-@media (min-width:768px){
+.happycus{
+    padding-top: 100px;
+}
 
-    .wave{
-        height: 300px;
+.happycus h1 ,.news{
+    font-weight: 600;
+}
+
+.testi{
+    border-radius:50%;
+    width: 50%;
+}
+
+.nbsec{
+    background-color: #FFC312;
+    height:min-content;
+}
+
+.blog{
+    border-radius: 0 0 40% 0;
+}
+
+.date{
+    width: 30%;
+    background-color: #FF6B35;
+    border-radius: 0 0 40% 0;
+    position:relative;
+    bottom: 50px;
+    height: 80px;
+    /* border: 2px solid red; */
+}
+
+.date p{
+    line-height: normal;
+}
+
+.bh2{
+    font-size: 30px;
+}
+
+.blogbtn{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #FF6B35;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: all 0.3s linear;
+}
+
+.blogbtn:hover{
+    background-color: black;
+    transition: all 0.3s linear;
+}
+
+.iconbck{
+    background-color: #FF6B35;
+    height: 60px;
+    border-radius: 25px;
+    width: 25%;
+}
+
+.cards{
+    background-color: #FFE8C0;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.cards h3{
+    font-size: 25px;
+}
+
+.map{
+    margin-top: 100px;
+}
+
+.map iframe{
+    height:550px;
+    width: 100%;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.form h3{
+    font-size: 30px;
+}
+
+.coname{
+    height: 50px;
+    border-radius: 30px;
+    border: 0.5px solid rgba(81, 79, 79, 0.84);
+    width: 100%;
+}
+
+.form textarea{
+    height: 150px;
+}
+
+@media (min-width:768px){
+    
+    .testi{
+        width: 25%;
     }
+    
+    .happycus{
+        padding-top:150px ;
+    }
+
     .outbox{
         height: 211px;
         width: 211px;
@@ -455,7 +560,7 @@
 }
 
 .wave{
-    height: 210px;
+    height: 100px;
 }
 
 .bgblk{
@@ -463,21 +568,33 @@
 }
 
 .ftbg{
-    height: 350px;
+    height: 330px;
 }
 }
 
 @media (min-width:992px){
+    
+    .iconbck{
+        width: 20%;
+    }
+    
+    .testi{
+        width: 100%;
+    }
+    
+    .date{
+        width: 18%;
+    }
 
     .wave{
-        height: 300px;
+        height: 140px;
     }
     .ablgus{
         font-size: 50px;
     }
     
     .ftbg{
-        height: 420px;
+        height: 410px;
     }
     
 .home{
@@ -509,7 +626,11 @@
 
 @media (min-width:1024px) {
     
-    
+      
+    .nbsec{
+        height: 1190px;
+        /* border: 2px solid red; */
+    }
     
     .home{
         height: 170vh;
@@ -547,14 +668,14 @@
     }
     
     .wave{
-        height: 100px;
+        height: 130px;
     }
 
     .abblk{
         height: 500px;
     }
      .ftbg{
-        height: 430px;
+        height: 500px;
      }
     
     .ingrid{
@@ -568,8 +689,9 @@
     .grid4{
             height: 500px;
         }
-
+    }
     @media (min-width:1440px){
+      
 
        .wave{
         height: 200px;
@@ -577,11 +699,10 @@
 
        .abblk{
         height: 400px;
-        /* border: 2px solid red; */
+        border: 2px solid red;
        }
 
        .ftbg{
-        height: 700px;
+        height: 600px;
        }
     }
-}

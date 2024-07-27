@@ -116,45 +116,45 @@ const Home = () => {
             </div>
         </div>
 
-        <div className="wave">
+        <div className="wave homewave">
         </div>
-        <div className="bgblk">
-            <div>
-                <div className="container d-md-flex justify-content-around">
-                    <div col-2>
-                        <img src="./public/footerlogo.png" alt="" />
+        <div className="bgblk pt-4">
+                <div>
+                    <div className="container d-md-flex justify-content-around">
+                        <div col-2>
+                            <img src="./public/footerlogo.png" alt="" />
+                        </div>
+                        <div className="ms-2 mt-4">
+                            <input type="text" placeholder="Your Mail Here" className="ftp1 homeinpt" />
+                            <button type="button" className="homebtn2 ms-2 ">Send</button>
+                            <div className="my-auto mt-3">
+                                <p className="ftp1 ">Join our list and get 15% off your first purchase!</p>
+                            </div> </div>
                     </div>
-                    <div className="ms-2 mt-4">
-                        <input type="text" placeholder="Your Mail Here" className="ftp1 homeinpt" />
-                        <button type="button" className="homebtn2 ms-2 ">Send</button>
-                        <div className="my-auto mt-3">
-                            <p className="ftp1 ">Join our list and get 15% off your first purchase!</p>
-                        </div> </div>
-                </div>
-                <div className="  mt-5 d-md-flex justify-content-around mb-5 container">
-                    <div className="d-flex justify-content-around  col-md-2  my-auto">
-                        <div><img src="../public/twitter.png" alt="" /></div>
-                        <div> <img src="../public/facebook.png" alt="" /></div>
-                        <div><img src="../public/insta.png" alt="" /></div>
-                        <div><img src="../public/youtube.png" alt="" /></div>
-                    </div>
-                    <div  className="my-auto text-center mt-4">
-                        <p className="ftp1">No: 58 A, East Madison Street,
-                            Baltimore, MD, USA 4508</p></div>
-                    <div className="my-auto text-center">
-                        <p className="ftp1">+000 123 456789</p>
-                    </div>
-                    <div className="my-auto text-center">
-                        <p className="ftp1">info@example.com</p>
-                    </div>
+                    <div className="  mt-5 d-md-flex justify-content-around mb-5 container">
+                        <div className="d-flex justify-content-around  col-md-2  my-auto">
+                            <div><img src="../public/twitter.png" alt="" /></div>
+                            <div> <img src="../public/facebook.png" alt="" /></div>
+                            <div><img src="../public/insta.png" alt="" /></div>
+                            <div><img src="../public/youtube.png" alt="" /></div>
+                        </div>
+                        <div className="my-auto text-center mt-4 col-md-3 ">
+                            <p className="ftp1">No: 58 A, East Madison Street,
+                                Baltimore, MD, USA 4508</p></div>
+                        <div className="my-auto text-center col-md-3">
+                            <p className="ftp1">+000 123 456789</p>
+                        </div>
+                        <div className="my-auto text-center col-md-3" >
+                            <p className="ftp1">info@example.com</p>
+                        </div>
 
 
-                </div>
-                <div className=" d-flex justify-content-center my-auto p-3 border-top text-center">
-                    <p className="ftp1 mx-auto my-auto">© 2024 dt Petty (password: buddha) Design Themes</p>
+                    </div>
+                    <div className=" d-flex justify-content-center my-auto p-3 border-top text-center">
+                        <p className="ftp1 mx-auto my-auto">© 2024 dt Petty (password: buddha) Design Themes</p>
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
     )
 }

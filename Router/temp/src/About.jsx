@@ -109,7 +109,7 @@ const About = (props) => {
                 
                 <div className="wave  abblk "></div>
             </div>
-            <div className="bgblk">
+            <div className="bgblk mt-5 pt-4">
                 <div>
                     <div className="container d-md-flex justify-content-around">
                         <div col-2>
@@ -129,13 +129,13 @@ const About = (props) => {
                             <div><img src="../public/insta.png" alt="" /></div>
                             <div><img src="../public/youtube.png" alt="" /></div>
                         </div>
-                        <div className="my-auto text-center mt-4">
+                        <div className="my-auto text-center mt-4 col-md-3 ">
                             <p className="ftp1">No: 58 A, East Madison Street,
                                 Baltimore, MD, USA 4508</p></div>
-                        <div className="my-auto text-center">
+                        <div className="my-auto text-center col-md-3">
                             <p className="ftp1">+000 123 456789</p>
                         </div>
-                        <div className="my-auto text-center">
+                        <div className="my-auto text-center col-md-3" >
                             <p className="ftp1">info@example.com</p>
                         </div>
 

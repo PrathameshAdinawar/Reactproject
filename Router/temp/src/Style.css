@@ -626,6 +626,7 @@
 
 @media (min-width:1024px) {
     
+   
       
     .nbsec{
         height: 1190px;
@@ -669,6 +670,10 @@
     
     .wave{
         height: 130px;
+    }
+    
+    .homewave{
+        height: 150px;
     }
 
     .abblk{

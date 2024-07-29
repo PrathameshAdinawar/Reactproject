@@ -76,7 +76,7 @@ function App() {
       rating: "3"
     },
     {
-      cars: "./volkswagen.jpg",
+      cars: "./Volkswagen.jpg",
       hh: "Sports",
       para3: "Volkswagen ID.4",
       p1: "Fuel Type",

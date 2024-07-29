@@ -8,7 +8,7 @@ import Sec6 from "./Sec6"
 import Footr from "./Footr"
 function App() {
   const nav = [
-    '../public/logo.jpg', 'Home', 'About', 'Courses', 'Placements', 'Contact'
+    './logo.jpg', 'Home', 'About', 'Courses', 'Placements', 'Contact'
   ]
 
   const hom = [{

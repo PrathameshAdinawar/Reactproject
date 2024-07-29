@@ -14,12 +14,12 @@ export default function Navbar(props) {
                     <button className="navbar-toggler ms-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span className="text-center mx-auto">
                            
-                            <img src="../public/hamburger.png" alt="" style={{height:"35px"}} />
+                            <img src="./hamburger.png" alt="" style={{height:"35px"}} />
                         </span>
                     </button>
                     </div>
                     <div className=" logosm d-lg-none">
-                    <img src="../public/logo.jpg" alt="" style={{height:"60%"}}/></div>
+                    <img src="./logo.jpg" alt="" style={{height:"60%"}}/></div>
                     </div>
                     <div className="collapse navbar-collapse r" id="navbarNav">
                         

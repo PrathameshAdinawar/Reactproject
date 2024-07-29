@@ -13,8 +13,8 @@ function App() {
 
   const hom = [{
 
-    i1: "../car1.png",
-    i2: "../public/car2.png",
+    i1: "./car1.png",
+    i2: "./public/car2.png",
     o1: "All Category",
     o2: "Sedan",
     o3: "Luxury Cars",
@@ -24,7 +24,7 @@ function App() {
     o7: "Electric",
     o8: "Gasoline",
     o9: "Hybrid",
-    i3: "../public/right-arrow.png"
+    i3: "./right-arrow.png"
   }
   ]
 
@@ -33,7 +33,7 @@ function App() {
       h: "Easy Rental Services",
       para1: "Our Featured ",
       para2: "Vehicles",
-      car1: "../public/peugeot.jpg",
+      car1: "./peugeot.jpg",
       hh: "Sedans",
       para3: "PEUGEOT E-2018",
       p1: "Fuel Type",

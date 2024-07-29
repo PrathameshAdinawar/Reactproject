@@ -122,7 +122,7 @@ const Home = () => {
                 <div>
                     <div className="container d-md-flex justify-content-around">
                         <div col-2>
-                            <img src="./public/footerlogo.png" alt="" />
+                            <img src="./footerlogo.png" alt="" />
                         </div>
                         <div className="ms-2 mt-4">
                             <input type="text" placeholder="Your Mail Here" className="ftp1 homeinpt" />
@@ -133,10 +133,10 @@ const Home = () => {
                     </div>
                     <div className="  mt-5 d-md-flex justify-content-around mb-5 container">
                         <div className="d-flex justify-content-around  col-md-2  my-auto">
-                            <div><img src="../public/twitter.png" alt="" /></div>
-                            <div> <img src="../public/facebook.png" alt="" /></div>
-                            <div><img src="../public/insta.png" alt="" /></div>
-                            <div><img src="../public/youtube.png" alt="" /></div>
+                            <div><img src="./twitter.png" alt="" /></div>
+                            <div> <img src="./facebook.png" alt="" /></div>
+                            <div><img src="./insta.png" alt="" /></div>
+                            <div><img src="./youtube.png" alt="" /></div>
                         </div>
                         <div className="my-auto text-center mt-4 col-md-3 ">
                             <p className="ftp1">No: 58 A, East Madison Street,

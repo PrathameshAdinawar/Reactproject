@@ -9,22 +9,22 @@ function App() {
 
   const team=[
     {
-      img:"../public/team01.jpg",
+      img:"./team01.jpg",
       name:"MOSSES JOSH",
       stat:"CEO"
     },
     {
-      img:"../public/team02.jpg",
+      img:"./team02.jpg",
       name:"YANARA",
       stat:"Manager"
     },
     {
-      img:"../public/team04.jpg",
+      img:"./team04.jpg",
       name:"JOHN RICK",
       stat:"Customer Support"
     },
     {
-      img:"../public/team03.jpg",
+      img:"./team03.jpg",
       name:"HELLEN",
       stat:"Supply Chain Manager"
     }

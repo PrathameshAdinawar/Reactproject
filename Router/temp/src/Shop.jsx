@@ -17,7 +17,7 @@ const Shop = () => {
                             <div className="d-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p1.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p1.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Wet Cat Food</h3>
                                     <p className="p1name price">Rs. 619.00</p>
@@ -28,7 +28,7 @@ const Shop = () => {
                             <div className="d-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p2.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p2.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Ocean Fish Dry</h3>
                                     <p className="p1name price">Rs. 689.00</p>
@@ -39,7 +39,7 @@ const Shop = () => {
                             <div className="d-none d-lg-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p8.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p8.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Wet Cat Food</h3>
                                     <p className="p1name price">Rs. 669.00</p>
@@ -50,7 +50,7 @@ const Shop = () => {
                             <div className="d-none d-xl-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p5.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p5.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Wet Cat Food</h3>
                                     <p className="p1name price">Rs. 639.00</p>
@@ -64,7 +64,7 @@ const Shop = () => {
                             <div className="d-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p3.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p3.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Pumkin Dog Food</h3>
                                     <p className="p1name price">Rs. 669.00</p>
@@ -76,7 +76,7 @@ const Shop = () => {
                             <div className="d-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p6.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p6.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Vegiterian Dog Food</h3>
                                     <p className="p1name price">Rs. 649.00</p>
@@ -87,7 +87,7 @@ const Shop = () => {
                             <div className="d-none d-lg-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p7.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p7.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Wet Cat Food</h3>
                                     <p className="p1name price">Rs. 659.00</p>
@@ -98,7 +98,7 @@ const Shop = () => {
                             <div className="d-none d-xl-flex justify-content-center">
                                 <div>
                                     <div className="outbox border">
-                                        <img src="../public/p4.jpg" alt="" className="p1 w-100" />
+                                        <img src="./p4.jpg" alt="" className="p1 w-100" />
                                     </div>
                                     <h3 className="p1name">Wet Cat Food</h3>
                                     <p className="p1name price">Rs. 669.00</p>
@@ -120,7 +120,7 @@ const Shop = () => {
             <div className="container mt-5">
                 <div className="grid4 d-md-flex gap-5 justify-content-evenly">
                     <div className="col-md-5 col-lg-4">
-                        <img src="../public/grid04.png" alt="" className="w-100 mt-5" />
+                        <img src="./grid04.png" alt="" className="w-100 mt-5" />
                     </div>
                     <div className="col-md-5 mt-md-5">
                     <h2 className="shopfnt whtfnt">Hot Deal Offer</h2>
@@ -142,7 +142,7 @@ const Shop = () => {
             <div>
                 <div className="container d-md-flex justify-content-around">
                     <div col-2>
-                        <img src="./public/footerlogo.png" alt="" />
+                        <img src="/footerlogo.png" alt="" />
                     </div>
                     <div className="ms-2 mt-4">
                         <input type="text" placeholder="Your Mail Here" className="ftp1 homeinpt" />
@@ -153,10 +153,10 @@ const Shop = () => {
                 </div>
                 <div className="  mt-5 d-md-flex justify-content-around mb-5 container">
                     <div className="d-flex justify-content-around  col-md-2  my-auto">
-                        <div><img src="../public/twitter.png" alt="" /></div>
-                        <div> <img src="../public/facebook.png" alt="" /></div>
-                        <div><img src="../public/insta.png" alt="" /></div>
-                        <div><img src="../public/youtube.png" alt="" /></div>
+                        <div><img src="./twitter.png" alt="" /></div>
+                        <div> <img src="./facebook.png" alt="" /></div>
+                        <div><img src="./insta.png" alt="" /></div>
+                        <div><img src="./youtube.png" alt="" /></div>
                     </div>
                     <div  className="my-auto text-center mt-4">
                         <p className="ftp1">No: 58 A, East Madison Street,

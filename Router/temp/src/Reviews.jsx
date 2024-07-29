@@ -13,7 +13,7 @@ const Reviews = () => {
               <div class="carousel-item active" data-bs-interval="3000">
                 <div className="container d-lg-flex">
                   <div className="d-flex justify-content-center col-lg-5 col-xl-4">
-                    <img src="../public/testi01.jpg" alt="" className="testi p-lg-5" />
+                    <img src="./testi01.jpg" alt="" className="testi p-lg-5" />
                   </div>
 
                   <div className="p-4">
@@ -25,7 +25,7 @@ const Reviews = () => {
               <div class="carousel-item" data-bs-interval="3000">
                 <div className="container d-flex">
                   <div className="d-flex justify-content-center col-lg-5 col-xl-4">
-                    <img src="../public/testi02.jpg" alt="" className="testi p-lg-5" />
+                    <img src="./testi02.jpg" alt="" className="testi p-lg-5" />
                   </div>
 
                   <div className="p-4">
@@ -37,7 +37,7 @@ const Reviews = () => {
               <div class="carousel-item" data-bs-interval="3000">
                 <div className="container d-flex">
                   <div className="d-flex justify-content-center col-lg-5 col-xl-4">
-                    <img src="../public/testi03.jpg" alt="" className="testi p-lg-5" />
+                    <img src="./testi03.jpg" alt="" className="testi p-lg-5" />
                   </div>
 
                   <div className="p-4">
@@ -69,7 +69,7 @@ const Reviews = () => {
 
             <div className="d-md-flex col-lg-8">
               <div className="p-4">
-                <img src="../public/Background/blog03.jpg" alt="" className="blog w-100" />
+                <img src="./Background/blog03.jpg" alt="" className="blog w-100" />
                 <div className="date">
                   <p className="abp1 p-2 text-light">May 24, 2022</p>
                 </div>
@@ -83,7 +83,7 @@ const Reviews = () => {
               </div>
 
               <div className="p-4">
-                <img src="../public/Background/blog02.jpg" alt="" className="blog w-100" />
+                <img src="./Background/blog02.jpg" alt="" className="blog w-100" />
                 <div className="date">
                   <p className="abp1 p-2 text-light">May 24, 2022</p>
                 </div>
@@ -98,7 +98,7 @@ const Reviews = () => {
             </div>
 
             <div className="p-4 col-md-6 col-lg-4">
-              <img src="../public/Background/blog01.jpg" alt="" className="blog w-100" />
+              <img src="./Background/blog01.jpg" alt="" className="blog w-100" />
               <div className="date">
                 <p className="abp1 p-2 text-light">May 24, 2022</p>
               </div>
@@ -120,7 +120,7 @@ const Reviews = () => {
         <div>
           <div className="container d-md-flex justify-content-around">
             <div col-2>
-              <img src="./public/footerlogo.png" alt="" />
+              <img src="./footerlogo.png" alt="" />
             </div>
             <div className="ms-2 mt-4">
               <input type="text" placeholder="Your Mail Here" className="ftp1 homeinpt" />
@@ -131,10 +131,10 @@ const Reviews = () => {
           </div>
           <div className="  mt-5 d-md-flex justify-content-around mb-5 container">
             <div className="d-flex justify-content-around  col-md-2  my-auto">
-              <div><img src="../public/twitter.png" alt="" /></div>
-              <div> <img src="../public/facebook.png" alt="" /></div>
-              <div><img src="../public/insta.png" alt="" /></div>
-              <div><img src="../public/youtube.png" alt="" /></div>
+              <div><img src="./twitter.png" alt="" /></div>
+              <div> <img src="./facebook.png" alt="" /></div>
+              <div><img src="./insta.png" alt="" /></div>
+              <div><img src="./youtube.png" alt="" /></div>
             </div>
             <div className="my-auto text-center mt-4 col-md-3 ">
               <p className="ftp1">No: 58 A, East Madison Street,

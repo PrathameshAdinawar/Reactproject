@@ -31,7 +31,7 @@ const About = (props) => {
                     <div className="">
                         <div className="d-flex justify-content-around w-100 container">
                             <div className="col-2 col-md-1 col-lg-1">
-                                <img src="../public/paw.png" alt="" />
+                                <img src="./paw.png" alt="" />
                             </div>
                             <div className="col-md-11 col-lg-11">
                                 <h2 className="abpaw homeh2">Human-Grade Ingredients</h2>
@@ -45,7 +45,7 @@ const About = (props) => {
                     <div className="w-100">
                         <div className="d-flex justify-content-around w-100 container">
                             <div className="col-2 col-md-1">
-                                <img src="../public/cutter.png" alt="" />
+                                <img src="./cutter.png" alt="" />
                             </div>
                             <div className="col-10 col-md-11">
                                 <h2 className="abpaw homeh2 text">Easy To Digest</h2>
@@ -59,7 +59,7 @@ const About = (props) => {
                     <div className="w-100">
                         <div className="d-flex justify-content-around w-100 container">
                             <div className="col-2 col-md-1">
-                                <img src="../public/cube.png" alt="" />
+                                <img src="./cube.png" alt="" />
                             </div>
                             <div className="col-10 col-md-11">
                                 <h2 className="abpaw homeh2">Delicious Taste</h2>
@@ -100,10 +100,10 @@ const About = (props) => {
             <div className="ftbg">
                 <h2 className="homeh2 pt-5 text-center mb-4 abpaw">Popular Brands</h2>
                 <div className="d-flex justify-content-center justify-content-md-around p-3 p-xl-5">
-                    <img src="../public/brlog01.png" alt="" className="brlog1 col-md-3 col-8" />
-                    <img src="../public/brlog02.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
-                    <img src="../public/brlog03.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
-                    <img src="../public/brlog04.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
+                    <img src="./brlog01.png" alt="" className="brlog1 col-md-3 col-8" />
+                    <img src="./brlog02.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
+                    <img src="./brlog03.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
+                    <img src="./brlog04.png" alt="" className="brlog1 col-md-3 d-none d-md-block" />
                     
                 </div>
                 
@@ -113,7 +113,7 @@ const About = (props) => {
                 <div>
                     <div className="container d-md-flex justify-content-around">
                         <div col-2>
-                            <img src="./public/footerlogo.png" alt="" />
+                            <img src="./footerlogo.png" alt="" />
                         </div>
                         <div className="ms-2 mt-4">
                             <input type="text" placeholder="Your Mail Here" className="ftp1 homeinpt" />
@@ -124,10 +124,10 @@ const About = (props) => {
                     </div>
                     <div className="  mt-5 d-md-flex justify-content-around mb-5 container">
                         <div className="d-flex justify-content-around  col-md-2  my-auto">
-                            <div><img src="../public/twitter.png" alt="" /></div>
-                            <div> <img src="../public/facebook.png" alt="" /></div>
-                            <div><img src="../public/insta.png" alt="" /></div>
-                            <div><img src="../public/youtube.png" alt="" /></div>
+                            <div><img src="./twitter.png" alt="" /></div>
+                            <div> <img src="./facebook.png" alt="" /></div>
+                            <div><img src="./insta.png" alt="" /></div>
+                            <div><img src="./youtube.png" alt="" /></div>
                         </div>
                         <div className="my-auto text-center mt-4 col-md-3 ">
                             <p className="ftp1">No: 58 A, East Madison Street,

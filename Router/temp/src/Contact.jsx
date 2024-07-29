@@ -15,7 +15,7 @@ const Contact = () => {
                     <div className="d-md-flex col-md-12 justify-content-evenly col-xl-8">
                         <div className="cards col-md-5 mt-md-5">
                             <div className="iconbck d-flex justify-content-center">
-                                <img src="../public/call.png" alt="" className="p-3" />
+                                <img src="./call.png" alt="" className="p-3" />
                             </div>
                             <h3 className="ablgus pt-3">Phone</h3>
                             <p className="abp1">0000 - 123 - 456789</p>
@@ -24,7 +24,7 @@ const Contact = () => {
 
                         <div className="cards mt-5  col-md-5">
                             <div className="iconbck d-flex justify-content-center">
-                                <img src="../public/mail.png" alt="" className="p-3" />
+                                <img src="./mail.png" alt="" className="p-3" />
                             </div>
                             <h3 className="ablgus pt-3">Email</h3>
                             <p className="abp1">info@example.com</p>
@@ -35,7 +35,7 @@ const Contact = () => {
                     <div className="d-md-flex justify-content-center col-xl-4">
                         <div className="cards mt-5 col-md-6 col-xl-12">
                             <div className="iconbck d-flex justify-content-center">
-                                <img src="../public/nav.png" alt="" className="p-3" />
+                                <img src="./nav.png" alt="" className="p-3" />
                             </div>
                             <h3 className="ablgus pt-3">Address</h3>
                             <p className="abp1">No: 58 A, East Madison Street,
@@ -75,7 +75,7 @@ const Contact = () => {
                 <div>
                     <div className="container d-md-flex justify-content-around">
                         <div col-2>
-                            <img src="./public/footerlogo.png" alt="" />
+                            <img src="./footerlogo.png" alt="" />
                         </div>
                         <div className="ms-2 mt-4">
                             <input type="text" placeholder="Your Mail Here" className="ftp1 homeinpt" />
@@ -86,10 +86,10 @@ const Contact = () => {
                     </div>
                     <div className="  mt-5 d-md-flex justify-content-around mb-5 container">
                         <div className="d-flex justify-content-around  col-md-2  my-auto">
-                            <div><img src="../public/twitter.png" alt="" /></div>
-                            <div> <img src="../public/facebook.png" alt="" /></div>
-                            <div><img src="../public/insta.png" alt="" /></div>
-                            <div><img src="../public/youtube.png" alt="" /></div>
+                            <div><img src="./twitter.png" alt="" /></div>
+                            <div> <img src="./facebook.png" alt="" /></div>
+                            <div><img src="./insta.png" alt="" /></div>
+                            <div><img src="./youtube.png" alt="" /></div>
                         </div>
                         <div className="my-auto text-center mt-4 col-md-3 ">
                             <p className="ftp1">No: 58 A, East Madison Street,

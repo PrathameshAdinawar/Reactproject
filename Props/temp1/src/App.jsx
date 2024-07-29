@@ -13,7 +13,7 @@ function App() {
 
   const hom = [{
 
-    i1: "../public/car1.png",
+    i1: "../car1.png",
     i2: "../public/car2.png",
     o1: "All Category",
     o2: "Sedan",

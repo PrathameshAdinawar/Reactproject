@@ -184,7 +184,7 @@ letter-spacing: -0.02em;
 }
 
 .sec4bg{
-    background-image: url(/dist/group2.jpg); 
+    background-image: url("../public/group2.jpg"); 
     height: 500px;
    max-width: 350px;
     background-size: cover;
@@ -234,7 +234,7 @@ letter-spacing: -0.02em;
 }
 
 .Sec5{
-    background-image: url("/dist/featured-bg.png");
+    background-image: url("../public/featured-bg.png");
     background-size: cover;
     background-position: center;
     /* border: 2px solid red; */
@@ -242,7 +242,7 @@ letter-spacing: -0.02em;
 }
 
 .Sec5img1{
-    background-image: url("/dist/contact2.jpg");
+    background-image: url("../public/contact2.jpg");
     height: 500px;
     width: 60%;
     background-size: cover;
@@ -256,7 +256,7 @@ letter-spacing: -0.02em;
 }
 
 .Sec5img2{
-    background-image: url("/dist/contact1.jpg");
+    background-image: url("../public/contact1.jpg");
     width:50%;
     height: 350px;
     position: relative;

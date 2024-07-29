@@ -44,19 +44,19 @@ function App() {
       p6: "2017",
       p7: "Controls",
       p8: "Manual",
-      img1: "../public/gas-station.png",
-      img2: "../public/wheel.png",
-      img3: "../public/steering-wheel.png",
-      img4: "../public/gear.png",
+      img1: "./gas-station.png",
+      img2: "./wheel.png",
+      img3: "./steering-wheel.png",
+      img4: "./gear.png",
       price: "$230",
-      star: "../public/star.png",
+      star: "./star.png",
       rating: "2.5"
     }
   ]
 
   const card = [
     {
-      cars: "../public/dodge.jpg",
+      cars: "./dodge.jpg",
       hh: "Luxary Cars",
       para3: "Dodge Charget",
       p1: "Fuel Type",
@@ -67,16 +67,16 @@ function App() {
       p6: "2014",
       p7: "Controls",
       p8: "Manual",
-      img1: "../public/gas-station.png",
-      img2: "../public/wheel.png",
-      img3: "../public/steering-wheel.png",
-      img4: "../public/gear.png",
-      star: "../public/star.png",
+      img1: "./gas-station.png",
+      img2: "./wheel.png",
+      img3: "./steering-wheel.png",
+      img4: "./gear.png",
+      star: "./star.png",
       price: "$220",
       rating: "3"
     },
     {
-      cars: "../public/volkswagen.jpg",
+      cars: "./volkswagen.jpg",
       hh: "Sports",
       para3: "Volkswagen ID.4",
       p1: "Fuel Type",
@@ -87,16 +87,16 @@ function App() {
       p6: "2012",
       p7: "Controls",
       p8: "Automated",
-      img1: "../public/gas-station.png",
-      img2: "../public/wheel.png",
-      img3: "../public/steering-wheel.png",
-      img4: "../public/gear.png",
-      star: "../public/star.png",
+      img1: "./gas-station.png",
+      img2: "./wheel.png",
+      img3: "./steering-wheel.png",
+      img4: "./gear.png",
+      star: "./star.png",
       price: "$170",
       rating: "4"
     },
     {
-      cars: "../public/chevrolet.jpg",
+      cars: "./chevrolet.jpg",
       hh: "Sports",
       para3: "Chevrolet corvette Z06",
       p1: "Fuel Type",
@@ -107,16 +107,16 @@ function App() {
       p6: "2022",
       p7: "Controls",
       p8: "Manual",
-      img1: "../public/gas-station.png",
-      img2: "../public/wheel.png",
-      img3: "../public/steering-wheel.png",
-      img4: "../public/gear.png",
-      star: "../public/star.png",
+      img1: "./gas-station.png",
+      img2: "./wheel.png",
+      img3: "./steering-wheel.png",
+      img4: "./gear.png",
+      star: "./star.png",
       price: "$170",
       rating: "1"
     },
     {
-      cars: "../public/ferrari.jpg",
+      cars: "./ferrari.jpg",
       hh: "Sedans",
       para3: "2023 Ferrari Purosangue",
       p1: "Fuel Type",
@@ -127,11 +127,11 @@ function App() {
       p6: "2022",
       p7: "Controls",
       p8: "Manual",
-      img1: "../public/gas-station.png",
-      img2: "../public/wheel.png",
-      img3: "../public/steering-wheel.png",
-      img4: "../public/gear.png",
-      star: "../public/star.png",
+      img1: "./gas-station.png",
+      img2: "./wheel.png",
+      img3: "./steering-wheel.png",
+      img4: "./gear.png",
+      star: "./star.png",
       price: "$170",
       rating: "1"
     }
@@ -139,57 +139,57 @@ function App() {
 
   const logos = [
     {
-      img: "../public/b1.jpg",
+      img: "./b1.jpg",
       h2: "HONDA"
     },
     {
-      img: "../public/lexus.jpg",
+      img: "./lexus.jpg",
       h2: "LEXUS"
     },
     {
-      img: "../public/toyota.jpg",
+      img: "./toyota.jpg",
       h2: "TOYOTA"
     },
     {
-      img: "../public/porshe.jpg",
+      img: "./porshe.jpg",
       h2: "PORSHE"
     },
     {
-      img: "../public/BMW.jpg",
+      img: "./BMW.jpg",
       h2: "BMW"
     },
     {
-      img: "../public/MERCEDES.jpg",
+      img: "./MERCEDES.jpg",
       h2: "MERCEDES"
     }
   ]
 
   const gq=[
     {
-    img1:"../public/group1.jpg",
-    img2:"../public/group2.jpg",
+    img1:"./group1.jpg",
+    img2:"./group2.jpg",
     p1:"Easy Car Rental Services",
     p2:"Cursus ullamcorper ultricies amet imperdiet amet risus volutpat autms. Nibh iaculis ut nam libero tellus sem interdum. Aed donec diam suspendisse. Sit vitae non tellus aliquam.",
-    chk:"../public/checkmark.png",
+    chk:"./checkmark.png",
     p3:"Malesuada enim sed mauris faucibus",
     p4:"Fermentum justo eros magnis turpis integer",
     p5:"Neque urna mattis ipsum consequat maecenas",
     p6:"VIEW ALL LISTINGS",
-    rw:"../public/right-arrow.png"
+    rw:"./right-arrow.png"
   }
   ]
   
   const rent=[
     {
-      bgimg:"../public/featured.jpg",
+      bgimg:"./featured.jpg",
       p1:"Easy Car Rental Services",
       p2:"Cursus ullamcorper ultricies amet imperdiet amet risus volutpat autms. Nibh iaculis ut nam libero tellus sem interdum. Aed donec diam suspendisse. Sit vitae non tellus aliquam.",
       p3:"Malesuada enim sed mauris faucibus",
       p4:"Fermentum justo eros magnis turpis integer",
       p5:"Neque urna mattis ipsum consequat maecenas",
       p6:"VIEW ALL LISTINGS",
-      rw:"../public/right-arrow.png",
-      chk:"../public/checkgrn.png"
+      rw:"./right-arrow.png",
+      chk:"./checkgrn.png"
     }
   ]
   
@@ -199,9 +199,9 @@ function App() {
       p1:"11935 Fairview St, El Monte, CA 91732",
       p2:"+1 (300) 490 5008",
       p3:"support@domain.com",
-      map:"../public/map.png",
-      call:"../public/call.png",
-      mail:"../public/mail.png"
+      map:"./map.png",
+      call:"./call.png",
+      mail:"./mail.png"
     }
   ]
 
@@ -209,9 +209,9 @@ function App() {
     {
       p:"© 2024 Renity Rental. All Rights Reserved. Terms & Conditions",
       fb:"./public/facebook.png",
-      gle:"../public/gogle.png",
-      tt:"../public/twitter.png",
-      insta:"../public/insta.png"
+      gle:"./gogle.png",
+      tt:"./twitter.png",
+      insta:"./insta.png"
     }
   ]
 

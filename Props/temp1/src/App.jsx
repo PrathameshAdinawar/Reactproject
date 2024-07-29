@@ -14,7 +14,7 @@ function App() {
   const hom = [{
 
     i1: "./car1.png",
-    i2: "./public/car2.png",
+    i2: "./car2.png",
     o1: "All Category",
     o2: "Sedan",
     o3: "Luxury Cars",
@@ -208,7 +208,7 @@ function App() {
   const ft=[
     {
       p:"© 2024 Renity Rental. All Rights Reserved. Terms & Conditions",
-      fb:"./public/facebook.png",
+      fb:"./facebook.png",
       gle:"./gogle.png",
       tt:"./twitter.png",
       insta:"./insta.png"
